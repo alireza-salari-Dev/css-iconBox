@@ -1,0 +1,58 @@
+:root {
+    --icon-basic-bg: var(--basic-icon-bg-color);
+    --icon-basic-text-color: var(--basic-icon-text-color);
+    --color-whatsapp-icon-bg: green;
+    --color-instagram-icon-bg: linear-gradient(145deg , #833ab4,#fd1d1d,#fcb045);
+    --color-telegram-icon-bg: #00b5ff;
+    --color-youtube-icon-bg: red;
+    --color-tiktok-icon-bg: black;
+    --color-facebook-icon-bg: blue;
+    --color-snapchat-icon-bg: yellow;
+    --color-twiter-x-icon-bg: black;
+    --color-pinterest-icon-bg: red;
+    --color-telegram-text-color: #ffffff;
+    --color-whatsapp-icon-text-color: #ffffff;
+    --color-instagram-icon-text-color: #ffffff;
+    --color-youtube-icon-text-color: #ffffff;
+    --color-tiktok-icon-text-color: #ffffff;
+    --color-facebook-icon-text-color: #ffffff;
+    --color-snapchat-icon-text-color: #ffffff;
+    --color-twiter-x-icon-text-color: #ffffff;
+    --color-pinterest-icon-text-color: #ffffff;
+}
+.icon_box .box .whatsapp:hover {
+    background: var(--color-whatsapp-icon-bg);
+    color: var(--color-whatsapp-icon-text-color);
+}
+.icon_box .box .instagram:hover {
+    background: var(--color-instagram-icon-bg);
+    color: var(--color-instagram-icon-text-color);
+}
+.icon_box .box .telegram:hover {
+    background: var(--color-telegram-icon-bg);
+    color: var(--color-telegram-text-color);
+}
+.icon_box .box .youtube:hover {
+    background: var(--color-youtube-icon-bg);
+    color: var(--color-youtube-icon-text-color);
+}
+.icon_box .box .tiktok:hover {
+    background: var(--color-tiktok-icon-bg);
+    color: var(--color-tiktok-icon-text-color);
+}
+.icon_box .box .facebook:hover {
+    background: var(--color-facebook-icon-bg);
+    color: var(--color-facebook-icon-text-color);
+}
+.icon_box .box .snapchat:hover {
+    background: var(--color-snapchat-icon-bg);
+    color: var(--color-snapchat-icon-text-color);
+}
+.icon_box .box .twiter-x:hover {
+    background: var(--color-twiter-x-icon-bg);
+    color: var(--color-twiter-x-icon-text-color);
+}
+.icon_box .box .pinterest:hover {
+    background: var(--color-pinterest-icon-bg);
+    color: var(--color-pinterest-icon-text-color);
+}

@@ -1,0 +1,10 @@
+:root {
+    --icon-main-background-color: #ffffff;
+    --icon-main-color: #000000;
+    --icon-direction: row;
+    --icon-size: 30px;
+    --icon-padding: 12px;
+    --icon-spacing: 20px;
+    --icon-border: 0;
+    --icon-radius: 20px;
+}

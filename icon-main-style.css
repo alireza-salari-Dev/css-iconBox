@@ -1,0 +1,34 @@
+@import "./icon-colors.css";
+@import "./icon-settings.css";
+body {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.icon_box .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: var(--icon-direction);
+    gap: var(--icon-spacing);
+    flex-wrap: wrap;
+}
+.icon_box .box .icon {
+    margin: 0;
+    padding: var(--icon-padding);
+    border: var(--icon-border);
+    border-radius: var(--icon-radius);
+    background-color: var(--icon-main-background-color);
+    color: var(--icon-main-color);
+    cursor: pointer;
+}
+.icon_box .box .icon i {
+    padding: 0;
+    margin: 0;
+    font-size: var(--icon-size);
+}
